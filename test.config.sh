@@ -3,7 +3,6 @@ export CONF_PORT=8084
 export CONF_REDIS_HOST=127.0.0.1
 export CONF_REDIS_PORT=6379
 export CONF_REDIS_DB=0
-export CONF_SENTRY_URL=https://3a91cbc190b3455f9ce57cd1a4420976@www.explorium.cn:9000/8
 export CONF_WX_SHOWQRCODE="http://127.0.0.1:8080/cgi-bin/showqrcode?ticket={ticket}"
 export CONF_WX_CREATESCENEQRCODE="http://127.0.0.1:8080/cgi-bin/qrcode/create?access_token={access_token}"
 export CONF_WX_MENUCREATE="http://127.0.0.1:8080/cgi-bin/menu/create?access_token={access_token}"
