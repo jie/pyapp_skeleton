@@ -1,0 +1,14 @@
+export CONF_DEPLOY=dev
+export CONF_PORT=8084
+export CONF_REDIS_HOST=127.0.0.1
+export CONF_REDIS_PORT=6379
+export CONF_REDIS_DB=0
+export CONF_WX_SHOWQRCODE="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket={ticket}"
+export CONF_WX_CREATESCENEQRCODE="https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token={access_token}"
+export CONF_WX_AUTHORIZE_URL="https://open.weixin.qq.com/connect/oauth2/authorize?appid={appid}&redirect_uri={redirect_uri}&response_type=code&scope={scope}&state={state}#wechat_redirect"
+export CONF_WX_ACCESS_URL="https://api.weixin.qq.com/sns/oauth2/access_token?appid={appid}&secret={secret}&code={code}&grant_type=authorization_code"
+export CONF_WX_REFRESH_URL="https://api.weixin.qq.com/sns/oauth2/refresh_token?appid={appid}&grant_type=refresh_token&refresh_token={refresh_token}"
+export CONF_WX_USERINFO_URL="https://api.weixin.qq.com/sns/userinfo?access_token={access_token}&openid={openid}&lang=zh_CN"
+export CONF_WX_CLIENT_CREDENTIAL_URL="https://api.weixin.qq.com/cgi-bin/token?grant_type={grant_type}&appid={appid}&secret={secret}"
+export CONF_WX_JSAPI_TICKET_URL="https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token={access_token}&type=jsapi"
+export CONF_WX_JSCODE2SESSION_URL="https://api.weixin.qq.com/sns/jscode2session?appid={appid}&secret={secret}&js_code={code}&grant_type=authorization_code"
