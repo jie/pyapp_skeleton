@@ -1,7 +1,7 @@
 addict==2.2.1
 autopep8==1.4.4
 captcha==0.3
-celery==4.3.0
+celery==5.2.2
 certifi==2019.6.16
 coverage==4.5.3
 exchangelib==1.12.5
