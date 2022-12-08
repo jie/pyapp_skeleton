@@ -2,7 +2,7 @@ addict==2.2.1
 autopep8==1.4.4
 captcha==0.3
 celery==4.3.0
-certifi==2019.6.16
+certifi==2022.12.7
 coverage==4.5.3
 exchangelib==1.12.5
 Jinja2==2.10.1
